@@ -22,7 +22,7 @@ data = pd.read_csv(csv_path)
 
 
 # Define the fraction of data to visualize (e.g., first 100 rows or a random sample)
-fraction_data = data.head(100)  # To use the first 100 rows
+fraction_data = data.head(1000)  # To use the first 100 rows
 # fraction_data = data.sample(100)  # For a random sample of 100 rows
 
 
